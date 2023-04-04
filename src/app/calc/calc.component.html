@@ -1,0 +1,31 @@
+
+<form>
+  <input style="font-size: 20px; padding-top: 15px;" type="number" name="num1" [(ngModel)]="num1">
+  <input style="font-size: 20px;padding-top: 15px;" type="number" name="num2" [(ngModel)]="num2">
+  <br>
+  <br><br>
+  <div>
+  <button style="font-size: 20px;border-radius: 15px;" type="button"  (click)="calcsoma()">
+     Somar
+    </button>
+  <button style="font-size: 20px;border-radius: 15px;" type="button"  (click)="calcsub()"> 
+    Subtrair
+</button>
+</div>  
+  <button style="font-size: 20px; border-radius: 15px;" type="button"  (click)="calcmuti()">
+     Mutiplicar
+    </button>
+  <button style="font-size: 20px;border-radius: 15px;" type="button"  (click)="calcdiv()">
+     Divisão
+    </button>
+    <br><br>
+    <br>
+  <input style="font-size: 20px; border-radius: 15px;padding-top: 15px;color: white;" name="result" [(ngModel)]="result" disabled>
+  </form>
+
+
+
+
+
+
+
